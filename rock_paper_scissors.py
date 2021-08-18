@@ -42,7 +42,7 @@ print("Hello!  What is your name?", end = "")
 playerName = input()
 print()
 
-print(f'Hi {playerName}.  Do you want to play rock, paper, scissors? (yes/no)', end="")
+print(f'Hi {playerName}.  Do you want to play the game? (yes/no)', end="")
 wantToPlay = input().lower()
 if wantToPlay == "no":
     print("Goodbye")
